@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('truetype');
+}
+header{ 
+    background-image: linear-gradient(to bottom,rgb(123, 185, 123),rgb(39, 90, 39));
+    color: snow;
+    padding: auto;
+}
+header .titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+}
+header p{
+    color: rgb(201, 206, 205);
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+}
+header nav ul li{
+    padding: 1px;
+    margin: auto 5px auto 5px;
+    justify-content: space-between;
+    border: 1px solid transparent;
+}
+header nav ul li:hover{
+    border: 1px solid rgb(76, 207, 76);
+    
+}
+main{
+    margin: 0px auto 0px auto; /* Centralizando */
+    width: 850px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px  5px black;
+}
+main h1{
+    font-family: idroid;
+    text-align: justify;
+    padding: 10px;
+    color: rgb(12, 87, 12);
+}
+main h2{
+    font-family: idroid;
+    text-align: justify;
+    padding: 10px;
+    color: rgb(12, 87, 12);
+    background-image: linear-gradient(to right ,rgba(171, 240, 171, 0.993) , rgba(183, 209, 183, 0.103));
+}
+main p{
+    text-align: initial;
+}
+main strong{
+    color: green;
+}
+main div{
+    margin: auto;
+    padding: auto;
+}
+main div.primeira-versao img{
+    display: flex;
+    align-items: center;
+    margin: auto ;
+    padding: auto;
+}
+main div.surge-mascote img{
+    display: flex;
+    align-items: center;
+    margin: 0px auto 0px auto;
+    padding: auto;
+}
+main div.video{
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px;
+    border-left: 50px;
+    border-right: 50px;
+    border-bottom: 10px;
+    border-color: rgb(3, 70, 3);
+    border-style: solid;
+}
+/* Grudar main ao header
+fazer o extra faltando 
+finalizar com o footer (assinar com meu nome)*/
